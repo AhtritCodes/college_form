@@ -1,0 +1,11 @@
+.form-data-field {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 80vh;
+    justify-content: center;
+    /* align-items: center; */
+    margin: auto;
+    /* border: 2px solid red; */
+    font-size: 25px;
+}
