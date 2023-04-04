@@ -22,6 +22,8 @@
     </div>
 
     <!-- Login Form -->
+
+    <h2 id="heading">Login form</h2>
     <form id="login-form">
         <label>Username</label>
         <input type="text" id="user" placeholder="Type your name" class="input-box" value="">
@@ -32,6 +34,9 @@
         <label>E-mail</label>
         <input type="email" id="usermail" class="input-box" value="">
 
+        <label>DOB</label>
+        <input type="date" name="dob" id="userdob" class="input-box" value="">
+
         <div class="button">
             <button type="reset" class="btn" id="btn-reset">RESET</button>
             <button type="submit" class="btn" id="btn-success">SUBMIT</button>
@@ -39,21 +44,5 @@
     </form>
 </body>
 
-<script>
-    const btnSuccess = document.getElementById ('btn-success');
-    var userName;
-    var userMail;
-    var pass;
-
-    // console.log(btnSuccess)
-    // console.log(input.user);
-    btnSuccess.addEventListener('click', (e) => {
-        e.preventDefault();
-        console.log('button clicked');
-        userName = document.getElementById('user').value;
-        userMail = document.getElementById('usermail').value;
-        pass = document.getElementById('pass').value;
-        console.log(userName + ' ' + userMail + ' ' + pass);
-    })
-</script>
+<script src="script.js"></script>
 </html>
