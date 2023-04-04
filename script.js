@@ -1,8 +1,8 @@
-const btnSuccess = document.getElementById ('btn-success');
-var userName;
-var userMail;
-var pass;
-var userdob;
+// const btnSuccess = document.getElementById ('btn-success');
+// var userName;
+// var userMail;
+// var pass;
+// var userdob;
 
 
 // console.log(btnSuccess)
@@ -24,3 +24,10 @@ var userdob;
     // document.getElementById('dob').innerText = userdob;
 
 // })
+
+const btn = document.getElementById('btn-success');
+
+btn.addEventListener('click', (e) => {
+    e.preventDefault();
+    window.location.href="https://ahtritcodes.github.io/college_form/formData.html";
+})
