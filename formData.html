@@ -31,6 +31,17 @@
         </div>
     </div>
 
+    <button id="back" class="btn">Go Back</button>
+
     <!-- <script src="script.js"></script> -->
+
+    <script>
+        backBtn = document.getElementById('back');
+
+        backBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.location.href = "https://ahtritcodes.github.io/college_form/";
+        })
+    </script>
 </body>
 </html>
